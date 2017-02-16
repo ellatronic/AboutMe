@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		494052441E541D4D00A229A8 /* GoalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494052431E541D4D00A229A8 /* GoalsTableViewController.swift */; };
+		494052821E55186E00A229A8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494052811E55186E00A229A8 /* HomeViewController.swift */; };
+		494052841E55189300A229A8 /* BioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494052831E55189300A229A8 /* BioViewController.swift */; };
+		494052861E55190000A229A8 /* ResumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494052851E55190000A229A8 /* ResumeViewController.swift */; };
+		494052881E55194C00A229A8 /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494052871E55194C00A229A8 /* FavoritesTableViewController.swift */; };
+		4940528A1E551A6500A229A8 /* CareerGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494052891E551A6500A229A8 /* CareerGoalViewController.swift */; };
+		4940528C1E551A6E00A229A8 /* HealthGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940528B1E551A6E00A229A8 /* HealthGoalViewController.swift */; };
+		4940528E1E551A7900A229A8 /* PersonalGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940528D1E551A7900A229A8 /* PersonalGoalViewController.swift */; };
+		49ABCD361E538D82000DF75C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ABCD351E538D82000DF75C /* AppDelegate.swift */; };
+		49ABCD381E538D82000DF75C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ABCD371E538D82000DF75C /* ViewController.swift */; };
+		49ABCD3B1E538D82000DF75C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49ABCD391E538D82000DF75C /* Main.storyboard */; };
+		49ABCD3D1E538D82000DF75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49ABCD3C1E538D82000DF75C /* Assets.xcassets */; };
+		49ABCD401E538D82000DF75C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49ABCD3E1E538D82000DF75C /* LaunchScreen.storyboard */; };
+		49ABCD4B1E538D82000DF75C /* ella_project0_AboutMeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ABCD4A1E538D82000DF75C /* ella_project0_AboutMeAppTests.swift */; };
+		49ABCD561E538D82000DF75C /* ella_project0_AboutMeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ABCD551E538D82000DF75C /* ella_project0_AboutMeAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49ABCD471E538D82000DF75C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49ABCD2A1E538D82000DF75C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49ABCD311E538D82000DF75C;
+			remoteInfo = "ella-project0-AboutMeApp";
+		};
+		49ABCD521E538D82000DF75C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49ABCD2A1E538D82000DF75C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49ABCD311E538D82000DF75C;
+			remoteInfo = "ella-project0-AboutMeApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		494052431E541D4D00A229A8 /* GoalsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalsTableViewController.swift; sourceTree = "<group>"; };
+		494052811E55186E00A229A8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		494052831E55189300A229A8 /* BioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioViewController.swift; sourceTree = "<group>"; };
+		494052851E55190000A229A8 /* ResumeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumeViewController.swift; sourceTree = "<group>"; };
+		494052871E55194C00A229A8 /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
+		494052891E551A6500A229A8 /* CareerGoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CareerGoalViewController.swift; sourceTree = "<group>"; };
+		4940528B1E551A6E00A229A8 /* HealthGoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthGoalViewController.swift; sourceTree = "<group>"; };
+		4940528D1E551A7900A229A8 /* PersonalGoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalGoalViewController.swift; sourceTree = "<group>"; };
+		49ABCD321E538D82000DF75C /* ella-project0-AboutMeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ella-project0-AboutMeApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49ABCD351E538D82000DF75C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49ABCD371E538D82000DF75C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49ABCD3A1E538D82000DF75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49ABCD3C1E538D82000DF75C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49ABCD3F1E538D82000DF75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49ABCD411E538D82000DF75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49ABCD461E538D82000DF75C /* ella-project0-AboutMeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ella-project0-AboutMeAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49ABCD4A1E538D82000DF75C /* ella_project0_AboutMeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ella_project0_AboutMeAppTests.swift; sourceTree = "<group>"; };
+		49ABCD4C1E538D82000DF75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49ABCD511E538D82000DF75C /* ella-project0-AboutMeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ella-project0-AboutMeAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49ABCD551E538D82000DF75C /* ella_project0_AboutMeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ella_project0_AboutMeAppUITests.swift; sourceTree = "<group>"; };
+		49ABCD571E538D82000DF75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49ABCD2F1E538D82000DF75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49ABCD431E538D82000DF75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49ABCD4E1E538D82000DF75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49ABCD291E538D82000DF75C = {
+			isa = PBXGroup;
+			children = (
+				49ABCD341E538D82000DF75C /* ella-project0-AboutMeApp */,
+				49ABCD491E538D82000DF75C /* ella-project0-AboutMeAppTests */,
+				49ABCD541E538D82000DF75C /* ella-project0-AboutMeAppUITests */,
+				49ABCD331E538D82000DF75C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49ABCD331E538D82000DF75C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49ABCD321E538D82000DF75C /* ella-project0-AboutMeApp.app */,
+				49ABCD461E538D82000DF75C /* ella-project0-AboutMeAppTests.xctest */,
+				49ABCD511E538D82000DF75C /* ella-project0-AboutMeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49ABCD341E538D82000DF75C /* ella-project0-AboutMeApp */ = {
+			isa = PBXGroup;
+			children = (
+				49ABCD351E538D82000DF75C /* AppDelegate.swift */,
+				49ABCD371E538D82000DF75C /* ViewController.swift */,
+				494052811E55186E00A229A8 /* HomeViewController.swift */,
+				494052431E541D4D00A229A8 /* GoalsTableViewController.swift */,
+				494052831E55189300A229A8 /* BioViewController.swift */,
+				494052851E55190000A229A8 /* ResumeViewController.swift */,
+				494052871E55194C00A229A8 /* FavoritesTableViewController.swift */,
+				494052891E551A6500A229A8 /* CareerGoalViewController.swift */,
+				4940528B1E551A6E00A229A8 /* HealthGoalViewController.swift */,
+				4940528D1E551A7900A229A8 /* PersonalGoalViewController.swift */,
+				49ABCD391E538D82000DF75C /* Main.storyboard */,
+				49ABCD3C1E538D82000DF75C /* Assets.xcassets */,
+				49ABCD3E1E538D82000DF75C /* LaunchScreen.storyboard */,
+				49ABCD411E538D82000DF75C /* Info.plist */,
+			);
+			path = "ella-project0-AboutMeApp";
+			sourceTree = "<group>";
+		};
+		49ABCD491E538D82000DF75C /* ella-project0-AboutMeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				49ABCD4A1E538D82000DF75C /* ella_project0_AboutMeAppTests.swift */,
+				49ABCD4C1E538D82000DF75C /* Info.plist */,
+			);
+			path = "ella-project0-AboutMeAppTests";
+			sourceTree = "<group>";
+		};
+		49ABCD541E538D82000DF75C /* ella-project0-AboutMeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49ABCD551E538D82000DF75C /* ella_project0_AboutMeAppUITests.swift */,
+				49ABCD571E538D82000DF75C /* Info.plist */,
+			);
+			path = "ella-project0-AboutMeAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49ABCD311E538D82000DF75C /* ella-project0-AboutMeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49ABCD5A1E538D82000DF75C /* Build configuration list for PBXNativeTarget "ella-project0-AboutMeApp" */;
+			buildPhases = (
+				49ABCD2E1E538D82000DF75C /* Sources */,
+				49ABCD2F1E538D82000DF75C /* Frameworks */,
+				49ABCD301E538D82000DF75C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ella-project0-AboutMeApp";
+			productName = "ella-project0-AboutMeApp";
+			productReference = 49ABCD321E538D82000DF75C /* ella-project0-AboutMeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49ABCD451E538D82000DF75C /* ella-project0-AboutMeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49ABCD5D1E538D82000DF75C /* Build configuration list for PBXNativeTarget "ella-project0-AboutMeAppTests" */;
+			buildPhases = (
+				49ABCD421E538D82000DF75C /* Sources */,
+				49ABCD431E538D82000DF75C /* Frameworks */,
+				49ABCD441E538D82000DF75C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49ABCD481E538D82000DF75C /* PBXTargetDependency */,
+			);
+			name = "ella-project0-AboutMeAppTests";
+			productName = "ella-project0-AboutMeAppTests";
+			productReference = 49ABCD461E538D82000DF75C /* ella-project0-AboutMeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49ABCD501E538D82000DF75C /* ella-project0-AboutMeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49ABCD601E538D82000DF75C /* Build configuration list for PBXNativeTarget "ella-project0-AboutMeAppUITests" */;
+			buildPhases = (
+				49ABCD4D1E538D82000DF75C /* Sources */,
+				49ABCD4E1E538D82000DF75C /* Frameworks */,
+				49ABCD4F1E538D82000DF75C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49ABCD531E538D82000DF75C /* PBXTargetDependency */,
+			);
+			name = "ella-project0-AboutMeAppUITests";
+			productName = "ella-project0-AboutMeAppUITests";
+			productReference = 49ABCD511E538D82000DF75C /* ella-project0-AboutMeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49ABCD2A1E538D82000DF75C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Ellatronic;
+				TargetAttributes = {
+					49ABCD311E538D82000DF75C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 55GD3S5ST7;
+						ProvisioningStyle = Automatic;
+					};
+					49ABCD451E538D82000DF75C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5AWD5S3Q32;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49ABCD311E538D82000DF75C;
+					};
+					49ABCD501E538D82000DF75C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5AWD5S3Q32;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49ABCD311E538D82000DF75C;
+					};
+				};
+			};
+			buildConfigurationList = 49ABCD2D1E538D82000DF75C /* Build configuration list for PBXProject "ella-project0-AboutMeApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49ABCD291E538D82000DF75C;
+			productRefGroup = 49ABCD331E538D82000DF75C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49ABCD311E538D82000DF75C /* ella-project0-AboutMeApp */,
+				49ABCD451E538D82000DF75C /* ella-project0-AboutMeAppTests */,
+				49ABCD501E538D82000DF75C /* ella-project0-AboutMeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49ABCD301E538D82000DF75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49ABCD401E538D82000DF75C /* LaunchScreen.storyboard in Resources */,
+				49ABCD3D1E538D82000DF75C /* Assets.xcassets in Resources */,
+				49ABCD3B1E538D82000DF75C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49ABCD441E538D82000DF75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49ABCD4F1E538D82000DF75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49ABCD2E1E538D82000DF75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4940528C1E551A6E00A229A8 /* HealthGoalViewController.swift in Sources */,
+				49ABCD381E538D82000DF75C /* ViewController.swift in Sources */,
+				494052441E541D4D00A229A8 /* GoalsTableViewController.swift in Sources */,
+				49ABCD361E538D82000DF75C /* AppDelegate.swift in Sources */,
+				4940528E1E551A7900A229A8 /* PersonalGoalViewController.swift in Sources */,
+				494052861E55190000A229A8 /* ResumeViewController.swift in Sources */,
+				494052821E55186E00A229A8 /* HomeViewController.swift in Sources */,
+				4940528A1E551A6500A229A8 /* CareerGoalViewController.swift in Sources */,
+				494052881E55194C00A229A8 /* FavoritesTableViewController.swift in Sources */,
+				494052841E55189300A229A8 /* BioViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49ABCD421E538D82000DF75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49ABCD4B1E538D82000DF75C /* ella_project0_AboutMeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49ABCD4D1E538D82000DF75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49ABCD561E538D82000DF75C /* ella_project0_AboutMeAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49ABCD481E538D82000DF75C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49ABCD311E538D82000DF75C /* ella-project0-AboutMeApp */;
+			targetProxy = 49ABCD471E538D82000DF75C /* PBXContainerItemProxy */;
+		};
+		49ABCD531E538D82000DF75C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49ABCD311E538D82000DF75C /* ella-project0-AboutMeApp */;
+			targetProxy = 49ABCD521E538D82000DF75C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49ABCD391E538D82000DF75C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49ABCD3A1E538D82000DF75C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49ABCD3E1E538D82000DF75C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49ABCD3F1E538D82000DF75C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49ABCD581E538D82000DF75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49ABCD591E538D82000DF75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49ABCD5B1E538D82000DF75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 55GD3S5ST7;
+				INFOPLIST_FILE = "ella-project0-AboutMeApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ellatronic.ella-project0-AboutMeApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		49ABCD5C1E538D82000DF75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 55GD3S5ST7;
+				INFOPLIST_FILE = "ella-project0-AboutMeApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ellatronic.ella-project0-AboutMeApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		49ABCD5E1E538D82000DF75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5AWD5S3Q32;
+				INFOPLIST_FILE = "ella-project0-AboutMeAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ellatronic.ella-project0-AboutMeAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ella-project0-AboutMeApp.app/ella-project0-AboutMeApp";
+			};
+			name = Debug;
+		};
+		49ABCD5F1E538D82000DF75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5AWD5S3Q32;
+				INFOPLIST_FILE = "ella-project0-AboutMeAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ellatronic.ella-project0-AboutMeAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ella-project0-AboutMeApp.app/ella-project0-AboutMeApp";
+			};
+			name = Release;
+		};
+		49ABCD611E538D82000DF75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5AWD5S3Q32;
+				INFOPLIST_FILE = "ella-project0-AboutMeAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ellatronic.ella-project0-AboutMeAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ella-project0-AboutMeApp";
+			};
+			name = Debug;
+		};
+		49ABCD621E538D82000DF75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5AWD5S3Q32;
+				INFOPLIST_FILE = "ella-project0-AboutMeAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ellatronic.ella-project0-AboutMeAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ella-project0-AboutMeApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49ABCD2D1E538D82000DF75C /* Build configuration list for PBXProject "ella-project0-AboutMeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49ABCD581E538D82000DF75C /* Debug */,
+				49ABCD591E538D82000DF75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49ABCD5A1E538D82000DF75C /* Build configuration list for PBXNativeTarget "ella-project0-AboutMeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49ABCD5B1E538D82000DF75C /* Debug */,
+				49ABCD5C1E538D82000DF75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49ABCD5D1E538D82000DF75C /* Build configuration list for PBXNativeTarget "ella-project0-AboutMeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49ABCD5E1E538D82000DF75C /* Debug */,
+				49ABCD5F1E538D82000DF75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49ABCD601E538D82000DF75C /* Build configuration list for PBXNativeTarget "ella-project0-AboutMeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49ABCD611E538D82000DF75C /* Debug */,
+				49ABCD621E538D82000DF75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49ABCD2A1E538D82000DF75C /* Project object */;
+}
